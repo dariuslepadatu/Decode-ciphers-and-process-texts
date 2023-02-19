@@ -1,0 +1,24 @@
+
+Run cpplint
+
+Task2.c:21:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:80:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:83:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:142:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:161:  Using C-style cast.  Use static_cast<char>(...) instead  [readability/casting] [4]
+Task2.c:166:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:185:  Using C-style cast.  Use static_cast<char>(...) instead  [readability/casting] [4]
+Done processing Task1.c
+Done processing Task2.c
+Done processing Task3.c
+Done processing tema2.c
+Total errors found: 7
+
+Run clang-tidy-12
+
+14 warnings generated.
+29 warnings generated.
+43 warnings generated.
+57 warnings generated.
+Suppressed 57 warnings (56 in non-user code, 1 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
